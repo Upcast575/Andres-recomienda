@@ -38,17 +38,24 @@
         </div>
     </nav>
     <div>
+        <div class="bg-black text-center text-white p-5">
+            <h1>Mi recomendacion de videojuegos</h1>
+            <span>
+                <p>En esta pagina podras encontrar una lista de videojuegos que recomiendo, los cuales estan divididos en 3 generos principales: Disparos, Aventura y Terror. Cada juego tiene un enlace a un video de YouTube para que puedas ver un poco del juego antes de decidir si quieres jugarlo o no. Espero que les sea de agrado mis recomendaciones :D</p>
+                <p><strong>Debajo de esta descripcion encontraras un carrusel con imagenes de los juegos que son por mucho mis favoritos de cada uno de los generos que mencione</strong></p>
+            </span>
+        </div>
         <!-- ?Agregado Carrusel para ver imagenes de los 3 generos principales de videojuegos que quiero recomendar -->
         <div id="carouselExample" class="carousel slide">
         <div class="carousel-inner">
             <div class="carousel-item active">
-            <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/976730/capsule_616x353.jpg?t=1774466074" class="d-block w-100" alt="...">
+            <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/976730/capsule_616x353.jpg?t=1774466074" class="d-block w-100" alt="Halo">
             </div>
             <div class="carousel-item">
-            <img src="https://cdn1.epicgames.com/offer/d602fd70876141ba9bf4d54809c423d1/EGS_TheEvilWithin_TangoGameworks_S1_2560x1440-16b7f817d8803517fbecbf3f175ac997" class="d-block w-100" alt="...">
+            <img src="https://cdn1.epicgames.com/offer/d602fd70876141ba9bf4d54809c423d1/EGS_TheEvilWithin_TangoGameworks_S1_2560x1440-16b7f817d8803517fbecbf3f175ac997" class="d-block w-100" alt="The evil within">
             </div>
             <div class="carousel-item">
-            <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/391220/50d71cee0ce60b2a0a03acf3201164ca3a76d4ae/capsule_616x353.jpg?t=1766187095" class="d-block w-100" alt="...">
+            <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/391220/50d71cee0ce60b2a0a03acf3201164ca3a76d4ae/capsule_616x353.jpg?t=1766187095" class="d-block w-100" alt="Tomb Raider">
             </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
@@ -61,7 +68,9 @@
         </button>
         </div>
     </div>
-    <div class="p-5 bg-black">
+
+    <!-- *Seccion de Shooters -->
+    <div class="p-5 bg-black" id="Disparos">
         <div class="centrar-titulos"><h1><span class="badge text-bg-black">Shooters</span></h1></div>
         <div class="row justify-content-center g-4">
             <div class="col-12 col-md-6 col-lg-5">
@@ -109,6 +118,114 @@
                         <h5>2008</h5>
                         <h5>⭐⭐⭐⭐⭐</h5>
                         <a href="https://www.youtube.com/watch?v=4wZvylgUCLk" target="_blank" class="btn btn-primary" role="button"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- *Seccion de Aventura -->
+    <div class="p-5 bg-black" id="Aventura">
+        <div class="centrar-titulos"><h1><span class="badge text-bg-black">Aventura</span></h1></div>
+        <div class="row justify-content-center g-4">
+            <div class="col-12 col-md-6 col-lg-5">
+                <div class="card h-100 text-bg-dark">
+                    <img src="https://store-images.s-microsoft.com/image/apps.5877.13510798886621078.d9c26d6d-0bcd-412a-9ac7-49a02514c594.d514ec34-4a53-4a40-8255-080381fb9ee9?q=90&w=480&h=270" class="card-img" alt="Rise of the Tomb Raider">
+                    <div class="card-img-overlay d-flex flex-column align-items-center justify-content-center">
+                        <h5 class="card-title">Rise of the Tomb Raider</h5>
+                        <h5>2015</h5>
+                        <h5>⭐⭐⭐⭐⭐</h5>
+                        <a href="https://www.youtube.com/watch?v=1_FIyNcQSgA" target="_blank" class="btn btn-primary" role="button"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-5">
+                <div class="card h-100 text-bg-dark">
+                    <img src="https://i.redd.it/xj9f20g2xb991.jpg" class="card-img" alt="Dark Souls">
+                    <div class="card-img-overlay d-flex flex-column align-items-center justify-content-center">
+                        <h5 class="card-title">Dark Souls</h5>
+                        <h5>2011</h5>
+                        <h5>⭐⭐⭐⭐⭐</h5>
+                        <a href="https://www.youtube.com/watch?v=Woe0PYZPxRw" target="_blank" class="btn btn-primary" role="button"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-5">
+                <div class="card h-100 text-bg-dark">
+                    <img src="https://www.minecraft.net/content/dam/minecraftnet/games/minecraft/key-art/Vanilla-PMP_Collection-Carousel-0_Buzzy-Bees_1280x768.jpg" class="card-img" alt="Minecraft">
+                    <div class="card-img-overlay d-flex flex-column align-items-center justify-content-center">
+                        <h5 class="card-title">Minecraft</h5>
+                        <h5>2011</h5>
+                        <h5>⭐⭐⭐⭐⭐</h5>
+                        <a href="https://www.youtube.com/watch?v=MmB9b5njVbA" target="_blank" class="btn btn-primary" role="button"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-5">
+                <div class="card h-100 text-bg-dark">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTL6iR-3DkCjPPdTZ9XIqCSdpectSTfk4kkrk43uf_aphlRcS6JKnQD91tR&s=10" class="card-img" alt="The Legend of Zelda: The Minish Cap">
+                    <div class="card-img-overlay d-flex flex-column align-items-center justify-content-center">
+                        <h5 class="card-title">The Legend of Zelda: The Minish Cap</h5>
+                        <h5>2004</h5>
+                        <h5>⭐⭐⭐⭐⭐</h5>
+                        <a href="https://www.youtube.com/watch?v=cSIDghMWVMA" target="_blank" class="btn btn-primary" role="button"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- *Seccion de Terror -->
+    <div class="p-5 bg-black" id="Terror">
+        <div class="centrar-titulos"><h1><span class="badge text-bg-black">Terror</span></h1></div>
+        <div class="row justify-content-center g-4">
+            <div class="col-12 col-md-6 col-lg-5">
+                <div class="card h-100 text-bg-dark">
+                    <img src="https://cdn1.epicgames.com/offer/d602fd70876141ba9bf4d54809c423d1/EGS_TheEvilWithin_TangoGameworks_S1_2560x1440-16b7f817d8803517fbecbf3f175ac997" class="card-img" alt="The Evil Within">
+                    <div class="card-img-overlay d-flex flex-column align-items-center justify-content-center">
+                        <h5 class="card-title">The Evil Within</h5>
+                        <h5>2014</h5>
+                        <h5>⭐⭐⭐⭐⭐</h5>
+                        <a href="https://www.youtube.com/watch?v=H2qITQHud2I" target="_blank" class="btn btn-primary" role="button"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-5">
+                <div class="card h-100 text-bg-dark">
+                    <img src="https://sm.ign.com/t/ign_latam/screenshot/default/resident-evil-2-review-eyg91920_gkav.1280.jpg" class="card-img" alt="Resident Evil 2">
+                    <div class="card-img-overlay d-flex flex-column align-items-center justify-content-center">
+                        <h5 class="card-title">Resident Evil 2</h5>
+                        <h5>2019</h5>
+                        <h5>⭐⭐⭐⭐⭐</h5>
+                        <a href="https://www.youtube.com/watch?v=u3wS-Q2KBpk" target="_blank" class="btn btn-primary" role="button"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-5">
+                <div class="card h-100 text-bg-dark">
+                    <img src="https://www.gamerfocus.co/wp-content/uploads/2024/09/silent-hill-2-xbox.jpg" class="card-img" alt="Silent Hill 2">
+                    <div class="card-img-overlay d-flex flex-column align-items-center justify-content-center">
+                        <h5 class="card-title">Silent Hill 2</h5>
+                        <h5>2001</h5>
+                        <h5>⭐⭐⭐⭐⭐</h5>
+                        <a href="https://www.youtube.com/watch?v=pyC_qiW_4ZY" target="_blank" class="btn btn-primary" role="button"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-5">
+                <div class="card h-100 text-bg-dark">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfwpgHUzUDWSBKUBkb0yQuVVbSt69Uoegl80ao_JyqAWyAhQ9fthGzD-7W&s=10" class="card-img" alt="Alien Isolation">
+                    <div class="card-img-overlay d-flex flex-column align-items-center justify-content-center">
+                        <h5 class="card-title">Alien Isolation</h5>
+                        <h5>2014</h5>
+                        <h5>⭐⭐⭐⭐⭐</h5>
+                        <a href="https://www.youtube.com/watch?v=LJQbDbSm4nE" target="_blank" class="btn btn-primary" role="button"><i class="fa-brands fa-youtube"></i></a>
                     </div>
                 </div>
             </div>
