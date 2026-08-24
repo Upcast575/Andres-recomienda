@@ -54,4 +54,10 @@ La IA generó la estructura básica de la tarjeta, incluyendo la imagen, el tít
 
 ## 6. Aprendizaje
 
-### ¿Qué concepto nuevo
+###¿Qué concepto nuevo comprendí gracias a la IA?
+Gracias a la IA comprendí mejor cómo funciona Bootstrap para crear tarjetas responsivas y organizar elementos visuales en una página web. 
+
+---
+
+## 7. Reflexión
+### Al no generarme código tal como se lo pedí, me resulto difícil lograr las cosas rápido, por lo fui a foros donde te ayudaban a resolver las dudas que yo tuve en el transcurso de hacer mi proyecto.
