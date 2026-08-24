@@ -1,3 +1,4 @@
+// todo: Agregados las variables en js los cuales son strings, numeros y booleanos
 let nombre1 = "Rise of the Tomb Raider"
 let anio1 = "2015"
 let favorito1 = true
