@@ -1,0 +1,41 @@
+/* ?Estilos personalizados para la barra de navegacion */
+.navbar{
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.menu-hamburguesa{
+    background-color: #ffffff !important;
+    color: #FFFFFF;
+}
+
+/* ?Estilos para que la imagen tenga la misma altura y cambio de opacidad */
+.card-img{
+    height: 100%;
+    opacity: 0.7;
+}
+
+/* ?Estilos para personalizar etiqueta span*/
+.centrar-titulos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+/* ?Estilos personalizados para las tarjetas */
+
+.card:hover {
+    border: 3px solid #0000FF;
+    box-shadow: none;
+}
+
+/* ?Estilos para los enlaces */
+.link-footer{
+    text-decoration: none !important;
+    color: #0000FF !important;
+}
+
+.link-footer:hover{
+    color: #90D5FF !important;
+}

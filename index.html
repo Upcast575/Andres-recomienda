@@ -4,14 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Andres_Recomienda</title>
+    <link rel="stylesheet" href="styles.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-black text-white p-3" id="inicio">
+    <!-- ?Barra de navegacion -->
+    <nav class="navbar navbar-expand-lg p-3" id="inicio">
         <div class="container-fluid">
             <!-- *Esto esta comentado porque no he creado el archivo de estilos -->
             <!-- <img src="/assets/images.jpg" alt="Logo" width="40" height="24" class="d-inline-block align-text-top" title="Generation"> -->
-            Galaxias by Andres
+            Videojuegos Recomendados
+            <button class="navbar-toggler menu-hamburguesa" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
             <!-- ?Agrego una barra de navegacion para poder ir a las diferentes secciones de la pagina -->
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -22,24 +28,97 @@
                         <ul class="dropdown-menu">
                             <li><a class="dropdown-item" href="#Terror">Terror</a></li>
                             <li><a class="dropdown-item" href="#Aventura">Aventura</a></li>
-                            <li><a class="dropdown-item" href="#Disparos">Aventura</a></li>
+                            <li><a class="dropdown-item" href="#Disparos">Disparos</a></li>
                             <li><hr class="dropdown-divider"></li>
                             <li><a class="dropdown-item" href="#Fin">Fin de la pagina</a></li>
                         </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
+    <div>
+        <!-- ?Agregado Carrusel para ver imagenes de los 3 generos principales de videojuegos que quiero recomendar -->
+        <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+            <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/976730/capsule_616x353.jpg?t=1774466074" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+            <img src="https://cdn1.epicgames.com/offer/d602fd70876141ba9bf4d54809c423d1/EGS_TheEvilWithin_TangoGameworks_S1_2560x1440-16b7f817d8803517fbecbf3f175ac997" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+            <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/391220/50d71cee0ce60b2a0a03acf3201164ca3a76d4ae/capsule_616x353.jpg?t=1766187095" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+        </div>
+    </div>
+    <div class="p-5 bg-black">
+        <div class="centrar-titulos"><h1><span class="badge text-bg-black">Shooters</span></h1></div>
+        <div class="row justify-content-center g-4">
+            <div class="col-12 col-md-6 col-lg-5">
+                <div class="card h-100 text-bg-dark">
+                    <img src="https://cdn.mos.cms.futurecdn.net/YRGfxWNhRGhWHrmfuZtS7E.jpg" class="card-img" alt="Halo combat Evolved">
+                    <!-- ?Algunos estilos que se tienen en el CSS puro se pueden aplicar directamente a los elementos HTML gracias a Bootstrap -->
+                    <div class="card-img-overlay d-flex flex-column align-items-center justify-content-center">
+                        <h5 class="card-title">Halo combat Evolved</h5>
+                        <h5>2001</h5>
+                        <h5>⭐⭐⭐⭐⭐</h5>
+                        <a href="https://www.youtube.com/watch?v=MK8XfKTs6JE" target="_blank" class="btn btn-primary" role="button"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-5">
+                <div class="card h-100 text-bg-dark">
+                    <img src="https://media.vandal.net/i/1280x720/10-2023/20/2023102002967_1.jpg" class="card-img" alt="Dead Space">
+                    <div class="card-img-overlay d-flex flex-column align-items-center justify-content-center">
+                        <h5 class="card-title">Dead Space</h5>
+                        <h5>2008</h5>
+                        <h5>⭐⭐⭐⭐⭐</h5>
+                        <a href="https://www.youtube.com/watch?v=S7VvKGlVZu8" target="_blank" class="btn btn-primary" role="button"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-5">
+                <div class="card h-100 text-bg-dark">
+                    <img src="https://store-images.s-microsoft.com/image/apps.46166.13894005495741551.85489576-6316-4236-acbe-1ba00f6720c3.20ca1454-292d-4f11-8f27-fa57d3ad122d?q=90&w=480&h=270" class="card-img" alt="Call of duty Black Ops 3">
+                    <div class="card-img-overlay d-flex flex-column align-items-center justify-content-center">
+                        <h5 class="card-title">Call of duty Black Ops 3</h5>
+                        <h5>2015</h5>
+                        <h5>⭐⭐⭐⭐</h5>
+                        <a href="https://www.youtube.com/watch?v=qAUYNIDEJ6o" target="_blank" class="btn btn-primary" role="button"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-5">
+                <div class="card h-100 text-bg-dark">
+                    <img src="https://store-images.s-microsoft.com/image/apps.21180.68505604187334199.d924c1a8-5b21-47f3-80d8-977e91a992b7.5a8e1c49-ad5d-48eb-bacd-5ad73f122e2e?q=90&w=480&h=270 class="card-img" alt="Left 4 Dead">
+                    <div class="card-img-overlay d-flex flex-column align-items-center justify-content-center">
+                        <h5 class="card-title">Left 4 Dead</h5>
+                        <h5>2008</h5>
+                        <h5>⭐⭐⭐⭐⭐</h5>
+                        <a href="https://www.youtube.com/watch?v=4wZvylgUCLk" target="_blank" class="btn btn-primary" role="button"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
     <footer>
-        <div class="contenedor bg-secondary text-center">
+        <div class="bg-black text-center text-white">
             <p>&copy; Generation Mexico: Cohorte 71</p>
-            <address>
-                <a href="#inicio">Inicio</a>
-            </address>
+            <a href="#inicio" class="link-footer">Inicio</a>
         </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
