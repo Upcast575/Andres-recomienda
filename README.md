@@ -28,10 +28,12 @@ Este proyecto consiste en una página web que recomienda videojuegos mediante ta
 
 ### Prompt 1
 
-> "Genera una tarjeta de Bootstrap para mostrar un videojuego con imagen, título, año y botón de YouTube."
+> " Actúa como tutor de desarrollo web para principiantes. Estoy creando un sitio web llamado "Andres_Recomienda" utilizando HTML, CSS, Bootstrap y variables básicas de JavaScript. Mi tema es Videojuegos con 3 generos diferente (Shootter, Aventura y Survival Horror). Ya conozco HTML, CSS, Bootstrap y variables en JavaScript, pero todavía no conozco funciones, ciclos ni manipulación del DOM (No me expliques nada sobre funciones, ciclos ni manipulacion del DOM). Ayudame en la creacion de un card que he estado modificando para que se vea con la idea que yo tengo, dame consejos de como mejorarlo e incluso de como implementar un boton pero no me des codigo, dime que herramientas de bootstrap puedo utilizar, yo te dare un pequeño fragmento de codigo que tenia de una paigna mia ya hecha : 
+<div class="col-12 col-md-6 col-lg-5"> <div class="card h-100 text-bg-dark"> <img src="https://cdn.mos.cms.futurecdn.net/YRGfxWNhRGhWHrmfuZtS7E.jpg" class="card-img" alt="Galaxias elípticas"> <div class="card-img-overlay"> <h5 class="card-title">Card title</h5> </div> </div>
+"
+**Resultado:** 
+La IA generó una sugerencia.
 
-**Resultado:**  
-La IA generó la estructura básica de la tarjeta, incluyendo la imagen, el título, el año de lanzamiento y un botón con enlace a YouTube.
 
 ---
 
@@ -54,7 +56,7 @@ La IA generó la estructura básica de la tarjeta, incluyendo la imagen, el tít
 
 ## 6. Aprendizaje
 
-###¿Qué concepto nuevo comprendí gracias a la IA?
+### ¿Qué concepto nuevo comprendí gracias a la IA?
 Gracias a la IA comprendí mejor cómo funciona Bootstrap para crear tarjetas responsivas y organizar elementos visuales en una página web. 
 
 ---
